@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Abhishek Portfolio</title>
+</head>
+<body>
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Stylish Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      transition: 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      color: #4facfe;
+      margin-bottom: 15px;
+      border-left: 5px solid #4facfe;
+      padding-left: 10px;
+    }
+
+    img {
+      width: 124px;
+      height: 124px;
+      border-radius: 2px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      
+  
+     
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    ul li::before {
+      content: "✔ ";
+      color: #00b894;
+    }
+
+    a {
+      color: #4facfe;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact p, .resume p {
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4facfe;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .demo-link a {
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: #4facfe;
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .demo-link a:hover {
+      background-color: #00f2fe;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ABHISHEK YADAV</h1>
+    <p>Creative Web Developer & Designer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="abhi.jpg" alt="Your Photo">
+    <p>Hi! I'm a front-end developer who enjoys building clean, user-friendly websites. I specialize in responsive design and modern UI/UX practices.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Version Control (Git, GitHub)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Portfolio Website:</strong> Personal branding site built with responsive HTML/CSS.
+      </li>
+      <li>
+        <strong>Weather App:</strong> Real-time weather app using OpenWeather API.
+      </li>
+      <li>
+        <strong>Task Manager:</strong> To-do list app with CRUD functionality using JavaScript.
+      </li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume here: <a href="resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: abab74600@gmail.com</p>
+    <p>Phone: +91-7460071572</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ABHISHEK YADAV. All rights reserved.</p>
+    <div class="demo-link">
+      <a href="#">For Demo - Click Here</a>
+    </div>
+  </footer>
+
+</body>
+</html>
+</body>
+</html> 
